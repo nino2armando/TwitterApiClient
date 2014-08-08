@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApiClient", "TwitterApiClient\TwitterApiClient.csproj", "{F641E340-C244-4E0A-8CB3-AF6B20427F29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApiClient.Core", "TwitterApiClient.Core\TwitterApiClient.Core.csproj", "{12E41E82-7819-48C6-9304-359586A9246E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApiClient.Core.Test", "TwitterApiClient.Core.Test\TwitterApiClient.Core.Test.csproj", "{21BBE90F-6562-42B9-8781-4981423D684C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F641E340-C244-4E0A-8CB3-AF6B20427F29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F641E340-C244-4E0A-8CB3-AF6B20427F29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F641E340-C244-4E0A-8CB3-AF6B20427F29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F641E340-C244-4E0A-8CB3-AF6B20427F29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E41E82-7819-48C6-9304-359586A9246E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E41E82-7819-48C6-9304-359586A9246E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E41E82-7819-48C6-9304-359586A9246E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E41E82-7819-48C6-9304-359586A9246E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21BBE90F-6562-42B9-8781-4981423D684C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21BBE90F-6562-42B9-8781-4981423D684C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21BBE90F-6562-42B9-8781-4981423D684C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21BBE90F-6562-42B9-8781-4981423D684C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

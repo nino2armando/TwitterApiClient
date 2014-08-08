@@ -1,0 +1,6 @@
+C:\Users\nino.khodabandeh\Projects\TwitterApiClient\TwitterApiClient\bin\Debug\TwitterApiClient.exe.config
+C:\Users\nino.khodabandeh\Projects\TwitterApiClient\TwitterApiClient\bin\Debug\TwitterApiClient.exe
+C:\Users\nino.khodabandeh\Projects\TwitterApiClient\TwitterApiClient\bin\Debug\TwitterApiClient.pdb
+C:\Users\nino.khodabandeh\Projects\TwitterApiClient\TwitterApiClient\obj\Debug\TwitterApiClient.csprojResolveAssemblyReference.cache
+C:\Users\nino.khodabandeh\Projects\TwitterApiClient\TwitterApiClient\obj\Debug\TwitterApiClient.exe
+C:\Users\nino.khodabandeh\Projects\TwitterApiClient\TwitterApiClient\obj\Debug\TwitterApiClient.pdb
