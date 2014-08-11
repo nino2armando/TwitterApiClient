@@ -56,5 +56,16 @@ namespace TwitterApiClient.Core.Test
 
             var payloade = client.Get(getParam);
         }
+
+        [TestMethod]
+        public void LinkedInApiCall()
+        {
+            var url = "https://www.linkedin.com/uas/oauth2/authorization?response_type=code"
+                                    + "&client_id=" + "751ku61912s1ly"
+                                    + "&state=STATE"
+                                    + "&redirect_uri=" + Uri.EscapeDataString("https://www.google.ca/");
+
+        }
+
     }
 }
