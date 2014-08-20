@@ -26,6 +26,7 @@ namespace TwitterApiClient.Core.Test
             content.Headers.ContentType = new MediaTypeHeaderValue("application/x-www-form-urlencoded");
 
 
+
             var postParam = new HttpParameters
                 {
                     BaseUrl = _baseUrl,
@@ -64,6 +65,37 @@ namespace TwitterApiClient.Core.Test
                                     + "&client_id=" + "751ku61912s1ly"
                                     + "&state=STATE"
                                     + "&redirect_uri=" + Uri.EscapeDataString("https://www.google.ca/");
+
+            var client = new HttpClientService();
+
+            var authToken =
+                "AQTd0nkkOxSqs1ClSG5WkBQWJe3RZgjctq9-IBe5dIghrvQichPnRDg5xwGbjtYnmjzEt9Zgw-Fu-SO8PfgbQngj8W3LD3Got5K_I2J-dMrj_Ibb2k0";
+
+
+
+            var sign = "grant_type=authorization_code" +
+                       "&code=" + authToken +
+                       "&redirect_uri=" + Uri.EscapeDataString("https://www.google.ca/") +
+                       "&client_id=" + "751ku61912s1ly" +
+                       "&client_secret=" + "mhN9E3rMW2bP8V2H";
+
+            var content = new StringContent(sign);
+            content.Headers.ContentType = new MediaTypeHeaderValue("application/x-www-form-urlencoded");
+
+            var data = client.Post(new HttpParameters()
+                {
+                    Content = content,
+                    DefaultHeaders = new Dictionary<string, string>()
+                        {
+                            {"Content-type","application/json"}
+                        },
+                    BaseUrl = "https://www.linkedin.com/",
+                    ResourceUrl = "uas/oauth2/accessToken"
+                });
+
+
+
+
 
         }
 

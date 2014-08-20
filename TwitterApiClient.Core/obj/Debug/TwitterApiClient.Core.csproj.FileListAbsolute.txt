@@ -8,6 +8,5 @@ C:\Users\nino.khodabandeh\Projects\TwitterApiClient\TwitterApiClient.Core\bin\De
 C:\Users\nino.khodabandeh\Projects\TwitterApiClient\TwitterApiClient.Core\bin\Debug\System.Net.Http.Extensions.xml
 C:\Users\nino.khodabandeh\Projects\TwitterApiClient\TwitterApiClient.Core\bin\Debug\System.Net.Http.Primitives.xml
 C:\Users\nino.khodabandeh\Projects\TwitterApiClient\TwitterApiClient.Core\obj\Debug\TwitterApiClient.Core.csproj.App.config
-C:\Users\nino.khodabandeh\Projects\TwitterApiClient\TwitterApiClient.Core\obj\Debug\TwitterApiClient.Core.csprojResolveAssemblyReference.cache
 C:\Users\nino.khodabandeh\Projects\TwitterApiClient\TwitterApiClient.Core\obj\Debug\TwitterApiClient.Core.dll
 C:\Users\nino.khodabandeh\Projects\TwitterApiClient\TwitterApiClient.Core\obj\Debug\TwitterApiClient.Core.pdb

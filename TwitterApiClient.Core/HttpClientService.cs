@@ -23,17 +23,18 @@ namespace TwitterApiClient.Core
             {
                 client.DefaultRequestHeaders.Authorization = param.AuthorizationHeader;
             }
-            if (param.DefaultHeaders.Any())
+            
+            if (param.DefaultHeaders != null)
             {
                 foreach (var header in param.DefaultHeaders)
                 {
                     client.DefaultRequestHeaders.TryAddWithoutValidation(header.Key, header.Value);
                 }
             }
-            if (param.Content == null)
-            {
-                throw new InvalidOperationException("Http content most be provided");
-            }
+            //if (param.Content == null)
+            //{
+            //    throw new InvalidOperationException("Http content most be provided");
+            //}
 
             HttpResponseMessage response;
             try

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApiClient.Core", "Tw
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApiClient.Core.Test", "TwitterApiClient.Core.Test\TwitterApiClient.Core.Test.csproj", "{21BBE90F-6562-42B9-8781-4981423D684C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TwitterApiClient.ApiCallback", "TwitterApiClient.ApiCallback\TwitterApiClient.ApiCallback.csproj", "{0A69286D-C40C-495A-890E-CB8C04CFFB28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{21BBE90F-6562-42B9-8781-4981423D684C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21BBE90F-6562-42B9-8781-4981423D684C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21BBE90F-6562-42B9-8781-4981423D684C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A69286D-C40C-495A-890E-CB8C04CFFB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A69286D-C40C-495A-890E-CB8C04CFFB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A69286D-C40C-495A-890E-CB8C04CFFB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A69286D-C40C-495A-890E-CB8C04CFFB28}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

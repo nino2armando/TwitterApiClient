@@ -1,0 +1,20 @@
+﻿@model System.Collections.Generic.Dictionary<string,string>
+
+@{
+    ViewBag.Title = "title";
+   // Layout = "_Layout";
+}
+
+<h2>title</h2>
+
+
+<a href="~/Callback/index">refresh token</a>
+
+@foreach (var item in Model)
+{
+
+    <p>@item.Key</p>
+    <p>@item.Value</p>
+
+
+}
